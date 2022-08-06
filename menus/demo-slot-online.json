@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle demo-slot-online",
+        "command": "demo-slot-online:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "demo-slot-online",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "demo-slot-online:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
